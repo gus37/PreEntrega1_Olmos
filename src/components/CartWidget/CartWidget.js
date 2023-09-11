@@ -4,7 +4,7 @@ import cart from './assets/mbrishoppingcart_99558.svg';
 const CartWidget = () => {
     return (
         <div>
-            <img src={cart} alt='cart-widget'/>
+            <img className='mx-5' src={cart} alt='cart-widget'/>
             0
         </div>
     )
